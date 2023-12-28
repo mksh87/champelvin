@@ -28,7 +28,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Parque amplio</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -42,7 +41,6 @@ function Servicios() {
                   <img className="img-fluid" src={villa} alt="Icon" />
                 </div>
                 <h6>Pileta</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -56,7 +54,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Cochera</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -70,7 +67,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Asador</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -84,7 +80,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Galería</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -98,7 +93,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Wi-Fi</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -112,7 +106,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>TV con Chromecast</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>
@@ -126,7 +119,6 @@ function Servicios() {
                   <img className="img-fluid" src={building} alt="Icon" />
                 </div>
                 <h6>Juegos</h6>
-                <span>123 Properties</span>
               </div>
             </div>
           </div>

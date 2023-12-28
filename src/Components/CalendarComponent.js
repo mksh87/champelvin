@@ -85,14 +85,14 @@ function CalendarComponent() {
   };
 
   return (
-    <div class="container-xxl py-5">
-      <div class="container">
+    <div className="container-xxl py-5">
+      <div className="container">
         <div
-          class="text-center mx-auto mb-5 wow fadeInUp"
+          className="text-center mx-auto mb-5 wow fadeInUp"
           data-wow-delay="0.1s"
           style={{ maxWidth: "600px" }}
         >
-          <h1 class="mb-3">Hace tu reserva</h1>
+          <h1 className="mb-3">Hace tu reserva</h1>
           <p>
             En el siguiente calendario se encuentran las fechas disponibles
             actualmente. Elija un rango de fechas y aparecerá un link para
