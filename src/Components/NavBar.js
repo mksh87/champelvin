@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../img/icon-deal.png";
+import logo from "../img/icon-neighborhood.png";
 import "../css/style.css";
 import "../lib/animate/animate.min.css";
 
@@ -45,7 +45,7 @@ function NavBar() {
               style={{ width: "30px", height: "30px" }}
             />
           </div>
-          <h1 className="m-0 text-primary">Cabaña Champ Elvin</h1>
+          <h1 className="m-0 text-primary">Champ Elvin</h1>
         </a>
         <button
           type="button"
