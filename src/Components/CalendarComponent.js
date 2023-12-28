@@ -85,36 +85,53 @@ function CalendarComponent() {
   };
 
   return (
-    <div>
-      <DatePicker
-        inline
-        selected={startDate}
-        onChange={handleDateChange}
-        startDate={startDate}
-        endDate={endDate}
-        selectsRange
-        locale={es}
-        minDate={currentDate}
-        maxDate={maxDate}
-        monthsShown={2}
-        filterDate={(date) =>
-          date < currentDate || date > maxDate || isDateBlocked(date)
-        }
-      />
-      {startDate && endDate && (
-        <p>
-          <span>Desde: {format(startDate, "dd/MM/yyyy")}</span> |{" "}
-          <span>Hasta: {format(endDate, "dd/MM/yyyy")}</span>
-        </p>
-      )}
-      {startDate && endDate && whatsappLink && (
-        <p>
-          Puedes reservar vía WhatsApp:{" "}
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            Enviar mensaje por WhatsApp
-          </a>
-        </p>
-      )}
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style={{ maxWidth: "600px" }}
+        >
+          <h1 class="mb-3">Hace tu reserva</h1>
+          <p>
+            En el siguiente calendario se encuentran las fechas disponibles
+            actualmente. Elija un rango de fechas y aparecerá un link para
+            continuar su reserva vía WhatsApp.
+          </p>
+        </div>
+
+        <div className="calendar-container" id="reserva">
+          <DatePicker
+            inline
+            selected={startDate}
+            onChange={handleDateChange}
+            startDate={startDate}
+            endDate={endDate}
+            selectsRange
+            locale={es}
+            minDate={currentDate}
+            maxDate={maxDate}
+            monthsShown={2}
+            filterDate={(date) =>
+              date < currentDate || date > maxDate || isDateBlocked(date)
+            }
+          />
+          {startDate && endDate && (
+            <p>
+              <span>Desde: {format(startDate, "dd/MM/yyyy")}</span> |{" "}
+              <span>Hasta: {format(endDate, "dd/MM/yyyy")}</span>
+            </p>
+          )}
+          {startDate && endDate && whatsappLink && (
+            <p>
+              Puedes reservar vía WhatsApp:{" "}
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                Enviar mensaje por WhatsApp
+              </a>
+            </p>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
