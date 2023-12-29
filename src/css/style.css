@@ -442,3 +442,12 @@
 .calendar-container {
         text-align: -webkit-center;
 }
+
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+    cursor: default;
+    color: black!important;
+    background-color: pink;
+}

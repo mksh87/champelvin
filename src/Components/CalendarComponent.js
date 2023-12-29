@@ -7,11 +7,46 @@ import es from "date-fns/locale/es";
 function CalendarComponent() {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
-  const disabledDates = [new Date(2024, 0, 1), new Date(2024, 0, 2)];
+  const [disabledDates, setdisabledDates] = useState([]);
+  // const disabledDates = [new Date(2024, 0, 1), new Date(2024, 0, 2)];
   const currentDate = new Date();
   const maxDate = new Date(currentDate.getTime() + 90 * 24 * 60 * 60 * 1000);
-
   const [whatsappLink, setWhatsappLink] = useState("");
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://champelvinadmin.000webhostapp.com/jsongenerator.php"
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const data = await response.json();
+        //console.log(data);  Imprime el JSON en la consola
+
+        const disabledDatesArray = []; // Nuevo arreglo para almacenar las fechas
+
+        for (let i = 0; i < data.length; i++) {
+          const oneBlock = new Date(data[i][0], data[i][1] - 1, data[i][2]);
+          disabledDatesArray.push(oneBlock);
+        }
+
+        setdisabledDates(disabledDatesArray); // Actualizar el estado con el arreglo completo
+      } catch (error) {
+        // Manejo de errores
+        console.error(
+          "There has been a problem with your fetch operation:",
+          error
+        );
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  //console.log(disabledDates);
 
   useEffect(() => {
     if (startDate && endDate) {
@@ -29,7 +64,7 @@ function CalendarComponent() {
       )} y el día ${format(endDate, "dd/MM/yyyy")}. Muchas gracias.`;
 
       const encodedMessage = encodeURIComponent(message);
-      const phoneNumber = "543515915216"; // Reemplaza esto con el número de teléfono
+      const phoneNumber = "543516073558";
 
       const link = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
       setWhatsappLink(link);
@@ -43,6 +78,8 @@ function CalendarComponent() {
 
     if (!isRangeValid(start, end)) {
       alert("El rango de fechas seleccionado es inválido");
+      setStartDate(null);
+      setEndDate(null);
       return;
     }
 

@@ -61,7 +61,7 @@ function Ubicacion() {
                     >
                       <i className="fa fa-envelope-open text-primary"></i>
                     </div>
-                    <span>elcolorado@gmail.com</span>
+                    <span>colomeyer2@gmail.com</span>
                   </div>
                 </div>
               </div>
