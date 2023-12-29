@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/champelvin/static/css/main.e8db682a.css",
-    "main.js": "/champelvin/static/js/main.5ef06f9c.js",
+    "main.css": "/champelvin/static/css/main.8f7f9ac3.css",
+    "main.js": "/champelvin/static/js/main.292aada9.js",
     "static/js/787.4228a063.chunk.js": "/champelvin/static/js/787.4228a063.chunk.js",
     "static/media/champ3.jpeg": "/champelvin/static/media/champ3.b2d2835233fa0b842c7a.jpeg",
     "static/media/champ1.jpeg": "/champelvin/static/media/champ1.ca08d8c0c440e0ea24bc.jpeg",
     "static/media/champ2.jpeg": "/champelvin/static/media/champ2.277da947b040e5f65623.jpeg",
     "static/media/champ4.jpeg": "/champelvin/static/media/champ4.2c318837108581829f97.jpeg",
     "index.html": "/champelvin/index.html",
-    "main.e8db682a.css.map": "/champelvin/static/css/main.e8db682a.css.map",
-    "main.5ef06f9c.js.map": "/champelvin/static/js/main.5ef06f9c.js.map",
+    "main.8f7f9ac3.css.map": "/champelvin/static/css/main.8f7f9ac3.css.map",
+    "main.292aada9.js.map": "/champelvin/static/js/main.292aada9.js.map",
     "787.4228a063.chunk.js.map": "/champelvin/static/js/787.4228a063.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8db682a.css",
-    "static/js/main.5ef06f9c.js"
+    "static/css/main.8f7f9ac3.css",
+    "static/js/main.292aada9.js"
   ]
 }
