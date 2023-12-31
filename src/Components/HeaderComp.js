@@ -2,6 +2,8 @@ import champ1 from "../img/champ1.jpeg";
 import champ2 from "../img/champ2.jpeg";
 import champ3 from "../img/champ3.jpeg";
 import champ4 from "../img/champ4.jpeg";
+import champ5 from "../img/champ5.jpeg";
+import champ6 from "../img/champ6.jpeg";
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "../css/style.css";
@@ -45,10 +47,16 @@ function Header() {
               <img className="img" src={champ2} />
             </div>
             <div>
+              <img className="img" src={champ5} />
+            </div>
+            <div>
               <img className="img" src={champ3} />
             </div>
             <div>
               <img className="img" src={champ4} />
+            </div>
+            <div>
+              <img className="img" src={champ6} />
             </div>
           </OwlCarousel>
         </div>

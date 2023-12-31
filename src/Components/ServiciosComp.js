@@ -18,7 +18,10 @@ function Servicios() {
           </p>
         </div>
         <div className="row g-4">
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -31,7 +34,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -44,7 +50,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -57,7 +66,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -70,7 +82,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -83,7 +98,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -96,7 +114,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""
@@ -109,7 +130,10 @@ function Servicios() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+          <div
+            className="col-lg-3 col-sm-4 col-6 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
             <div
               className="cat-item d-block bg-light text-center rounded p-3"
               href=""

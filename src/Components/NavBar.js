@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../img/icon-neighborhood.png";
+import logo from "../img/logo3.png";
 import "../css/style.css";
 import "../lib/animate/animate.min.css";
 
@@ -37,15 +37,13 @@ function NavBar() {
           href="index.html"
           className="navbar-brand d-flex align-items-center text-center"
         >
-          <div className="icon p-2 me-2">
-            <img
-              className="img-fluid"
-              src={logo}
-              alt="Icon"
-              style={{ width: "30px", height: "30px" }}
-            />
-          </div>
-          <h1 className="m-0 text-primary">Champ Elvin</h1>
+          <img
+            className="img-fluid"
+            src={logo}
+            alt="Icon"
+            style={{ height: "-webkit-fill-available" }}
+          />
+          {/* <h1 className="m-0 text-primary">Champ Elvin</h1> */}
         </a>
         <button
           type="button"
