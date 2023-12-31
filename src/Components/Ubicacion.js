@@ -1,3 +1,7 @@
+import location from "../img/loc.png";
+import phone from "../img/phone.png";
+import gmail from "../img/gmail.png";
+
 function Ubicacion() {
   return (
     <div className="container-xxl py-5" id="ubicacion">
@@ -9,8 +13,9 @@ function Ubicacion() {
         >
           <h1 className="mb-3">Donde estamos</h1>
           <p>
-            Nos encontramos a pocas cuadras del centro de Icho Cruz a 30 metros
-            del rio.
+            La localidad de Icho Cruz se encuentra a una hora de la ciudad de
+            Córdoba. La cabaña se encuentra a pocas cuadras del centro y a 50
+            metros del rio de Cuesta Blanca.
           </p>
         </div>
         <div className="row g-4">
@@ -40,9 +45,9 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <i className="fa fa-map-marker-alt text-primary"></i>
+                      <img className="myicons" src={location}></img>
                     </div>
-                    <span>Av. Concordia 949</span>
+                    <span>Ibicuy 218, Villa Icho Cruz</span>
                   </div>
                 </div>
               </div>
@@ -59,7 +64,7 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <i className="fa fa-envelope-open text-primary"></i>
+                      <img className="myicons" src={gmail}></img>
                     </div>
                     <span>colomeyer2@gmail.com</span>
                   </div>
@@ -78,7 +83,7 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <i className="fa fa-phone-alt text-primary"></i>
+                      <img className="myicons" src={phone}></img>
                     </div>
                     <span>+54 351 607 3558</span>
                   </div>

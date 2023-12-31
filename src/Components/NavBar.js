@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../img/logo3.png";
-import "../css/style.css";
 import "../lib/animate/animate.min.css";
+import "bootstrap";
 
 function NavBar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +41,7 @@ function NavBar() {
             className="img-fluid"
             src={logo}
             alt="Icon"
-            style={{ height: "-webkit-fill-available" }}
+            style={{ height: "75%" }}
           />
           {/* <h1 className="m-0 text-primary">Champ Elvin</h1> */}
         </a>

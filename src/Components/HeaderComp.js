@@ -21,8 +21,7 @@ function Header() {
             de Córdoba para tus vacaciones!
           </h1>
           <p className="animated fadeIn mb-4 pb-2">
-            Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no.
-            Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.
+            Disfrutá tus vacaciones en un espacio distendido. ¡Desconectate!
           </p>
           <a
             href="#reserva"

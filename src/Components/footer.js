@@ -9,7 +9,7 @@ function Footer() {
       >
         <div className="container py-4">
           <div className="row g-5">
-            <div className="col-lg-5 col-md-5" style={{ margin: "0" }}>
+            <div className="col-lg-5 col-md-5 col-5" style={{ margin: "0" }}>
               <a
                 href="index.html"
                 className="navbar-brand d-flex align-items-center text-center"
@@ -24,22 +24,19 @@ function Footer() {
                 {/* <h1 className="m-0 text-primary">Champ Elvin</h1> */}
               </a>
             </div>
-            <div className="col-lg-1 col-md-1" style={{ margin: "0" }}></div>
+            <div
+              className="col-lg-1 col-md-1 col-1"
+              style={{ margin: "0" }}
+            ></div>
 
-            <div className="col-lg-6 col-md-6" style={{ margin: "0" }}>
+            <div className="col-lg-5 col-md-5 col-5" style={{ margin: "0" }}>
               <h5 className="text-white mb-4">Seguinos</h5>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-twitter"></i>
-                </a>
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-youtube"></i>
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
