@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/champelvin/static/css/main.b577aadf.css",
-    "main.js": "/champelvin/static/js/main.8a8cd5b0.js",
+    "main.js": "/champelvin/static/js/main.234ab3cd.js",
     "static/js/787.4228a063.chunk.js": "/champelvin/static/js/787.4228a063.chunk.js",
+    "static/media/ig-logo.png": "/champelvin/static/media/ig-logo.7215b73bd0ac6529c0fb.png",
     "static/media/champ6.jpeg": "/champelvin/static/media/champ6.273cde7a5c3a6fd7022d.jpeg",
     "static/media/champ5.jpeg": "/champelvin/static/media/champ5.49a605afbe3e218fb572.jpeg",
     "static/media/champ3.jpeg": "/champelvin/static/media/champ3.b2d2835233fa0b842c7a.jpeg",
@@ -11,14 +12,15 @@
     "static/media/champ4.jpeg": "/champelvin/static/media/champ4.2c318837108581829f97.jpeg",
     "static/media/loc.png": "/champelvin/static/media/loc.4ba2450b71e973e57b09.png",
     "static/media/logo2.png": "/champelvin/static/media/logo2.184d03506c8d4de83f3d.png",
+    "static/media/fb-logo.png": "/champelvin/static/media/fb-logo.ad66ea097c336284e33f.png",
     "static/media/logo3.png": "/champelvin/static/media/logo3.eec01196ebc1dec12527.png",
     "index.html": "/champelvin/index.html",
     "main.b577aadf.css.map": "/champelvin/static/css/main.b577aadf.css.map",
-    "main.8a8cd5b0.js.map": "/champelvin/static/js/main.8a8cd5b0.js.map",
+    "main.234ab3cd.js.map": "/champelvin/static/js/main.234ab3cd.js.map",
     "787.4228a063.chunk.js.map": "/champelvin/static/js/787.4228a063.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b577aadf.css",
-    "static/js/main.8a8cd5b0.js"
+    "static/js/main.234ab3cd.js"
   ]
 }
