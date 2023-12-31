@@ -47,7 +47,12 @@ function Ubicacion() {
                     >
                       <img className="myicons" src={location}></img>
                     </div>
-                    <span>Ibicuy 218, Villa Icho Cruz</span>
+                    <a
+                      href="https://maps.app.goo.gl/AZjnFNgXe1fQ5ZN17"
+                      target="_blank"
+                    >
+                      <span>Ibicuy 218, Villa Icho Cruz</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -66,7 +71,9 @@ function Ubicacion() {
                     >
                       <img className="myicons" src={gmail}></img>
                     </div>
-                    <span>colomeyer2@gmail.com</span>
+                    <a href="mailto:colomeyer2@gmail.com" target="_blank">
+                      <span>colomeyer2@gmail.com</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -85,7 +92,9 @@ function Ubicacion() {
                     >
                       <img className="myicons" src={phone}></img>
                     </div>
-                    <span>+54 351 607 3558</span>
+                    <a href="https://wa.me/543516073558" target="_blank">
+                      <span>+54 351 607 3558</span>
+                    </a>
                   </div>
                 </div>
               </div>

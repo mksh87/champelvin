@@ -1,4 +1,6 @@
 import logo2 from "../img/logo2.png";
+import fb from "../img/fb-logo.png";
+import ig from "../img/ig-logo.png";
 
 function Footer() {
   return (
@@ -32,11 +34,19 @@ function Footer() {
             <div className="col-lg-5 col-md-5 col-5" style={{ margin: "0" }}>
               <h5 className="text-white mb-4">Seguinos</h5>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-facebook-f"></i>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/champelvin/"
+                  target="_blank"
+                >
+                  <img src={ig} className="myicons"></img>
                 </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-youtube"></i>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/champelvin/"
+                  target="_blank"
+                >
+                  <img src={fb} className="myicons"></img>
                 </a>
               </div>
             </div>
