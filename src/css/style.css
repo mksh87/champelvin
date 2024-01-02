@@ -462,3 +462,7 @@
 .menubar {
     background-color: #1a2d29ff;
 }
+
+.btn:hover {
+    background-color: white!important;
+}

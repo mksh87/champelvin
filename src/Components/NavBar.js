@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../img/logo3.png";
+import logo from "../img/logo4.png";
 import "../lib/animate/animate.min.css";
 import "bootstrap";
 
@@ -32,7 +32,7 @@ function NavBar() {
 
   return (
     <div className={navbarClasses}>
-      <nav className="navbar navbar-expand-lg navbar-light py-0 px-4">
+      <nav className="navbar navbar-expand-lg navbar-light py-0 px-4 menubar">
         <a
           href="index.html"
           className="navbar-brand d-flex align-items-center text-center"
@@ -47,7 +47,7 @@ function NavBar() {
         </a>
         <button
           type="button"
-          className="navbar-toggler"
+          className="navbar-toggler btn btn-primary"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
