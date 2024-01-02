@@ -37,6 +37,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
+    background-color: #00B98E;
     color: #FFFFFF;
 }
 
@@ -135,7 +136,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    /* color: var(--dark); */
+    color: white;
     font-weight: 500;
 }
 
@@ -455,4 +457,8 @@
 .myicons {
     height: 20px;
     width: 20px;
+}
+
+.menubar {
+    background-color: #1a2d29ff;
 }

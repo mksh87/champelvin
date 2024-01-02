@@ -32,7 +32,7 @@ function NavBar() {
 
   return (
     <div className={navbarClasses}>
-      <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+      <nav className="navbar navbar-expand-lg navbar-light py-0 px-4">
         <a
           href="index.html"
           className="navbar-brand d-flex align-items-center text-center"
