@@ -10,7 +10,7 @@ function CalendarComponent() {
   const [disabledDates, setdisabledDates] = useState([]);
   // const disabledDates = [new Date(2024, 0, 1), new Date(2024, 0, 2)];
   const currentDate = new Date();
-  const maxDate = new Date(currentDate.getTime() + 90 * 24 * 60 * 60 * 1000);
+  const maxDate = new Date(currentDate.getTime() + 180 * 24 * 60 * 60 * 1000);
   const [whatsappLink, setWhatsappLink] = useState("");
 
   useEffect(() => {
