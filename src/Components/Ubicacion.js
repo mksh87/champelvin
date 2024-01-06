@@ -13,9 +13,9 @@ function Ubicacion() {
         >
           <h1 className="mb-3">Donde estamos</h1>
           <p>
-            La localidad de Icho Cruz se encuentra a una hora de la ciudad de
-            Córdoba. La cabaña se encuentra a pocas cuadras del centro y a 50
-            metros del rio de Cuesta Blanca.
+            La localidad de Villa Icho Cruz se ubica a una hora de la ciudad de
+            Córdoba. A su vez, la cabaña se encuentra a pocas cuadras del centro
+            y a 50 metros del rio San Antonio, balneario Cuesta Blanca.
           </p>
         </div>
         <div className="row g-4">

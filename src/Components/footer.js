@@ -11,7 +11,7 @@ function Footer() {
       >
         <div className="container py-4">
           <div className="row g-5">
-            <div className="col-lg-5 col-md-5 col-5" style={{ margin: "0" }}>
+            <div className="col-lg-4 col-md-4 col-4" style={{ margin: "0" }}>
               <a
                 href="index.html"
                 className="navbar-brand d-flex align-items-center text-center"
@@ -26,12 +26,7 @@ function Footer() {
                 {/* <h1 className="m-0 text-primary">Champ Elvin</h1> */}
               </a>
             </div>
-            <div
-              className="col-lg-1 col-md-1 col-1"
-              style={{ margin: "0" }}
-            ></div>
-
-            <div className="col-lg-5 col-md-5 col-5" style={{ margin: "0" }}>
+            <div className="col-lg-4 col-md-4 col-4" style={{ margin: "0" }}>
               <h5 className="text-white mb-4">Seguinos</h5>
               <div className="d-flex pt-2">
                 <a
@@ -41,9 +36,29 @@ function Footer() {
                 >
                   <img src={ig} className="myicons"></img>
                 </a>
-                <a
+                {/* <a
                   className="btn btn-outline-light btn-social"
                   href="https://www.instagram.com/champelvin/"
+                  target="_blank"
+                >
+                  <img src={fb} className="myicons"></img>
+                </a> */}
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-4" style={{ margin: "0" }}>
+              <h5 className="text-white mb-4">Conocé Icho Cruz</h5>
+              <div className="d-flex pt-2">
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/ichocruzok/"
+                  target="_blank"
+                >
+                  <img src={ig} className="myicons"></img>
+                </a>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.cordobaturismo.gov.ar/localidad/villa-icho-cruz/"
                   target="_blank"
                 >
                   <img src={fb} className="myicons"></img>
