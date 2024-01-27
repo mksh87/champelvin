@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/champelvin/static/css/main.8026ba1d.css",
-    "main.js": "/champelvin/static/js/main.d241f1f9.js",
-    "static/js/787.4228a063.chunk.js": "/champelvin/static/js/787.4228a063.chunk.js",
-    "static/media/champ6.jpeg": "/champelvin/static/media/champ6.273cde7a5c3a6fd7022d.jpeg",
-    "static/media/champ5.jpeg": "/champelvin/static/media/champ5.49a605afbe3e218fb572.jpeg",
-    "static/media/champ3.jpeg": "/champelvin/static/media/champ3.b2d2835233fa0b842c7a.jpeg",
-    "static/media/champ1.jpeg": "/champelvin/static/media/champ1.ca08d8c0c440e0ea24bc.jpeg",
-    "static/media/champ2.jpeg": "/champelvin/static/media/champ2.277da947b040e5f65623.jpeg",
-    "static/media/champ4.jpeg": "/champelvin/static/media/champ4.2c318837108581829f97.jpeg",
-    "static/media/ig-logo.png": "/champelvin/static/media/ig-logo.2144197ccca86364334a.png",
-    "static/media/loc.png": "/champelvin/static/media/loc.4ba2450b71e973e57b09.png",
-    "static/media/logo2.png": "/champelvin/static/media/logo2.184d03506c8d4de83f3d.png",
-    "static/media/fb-logo.png": "/champelvin/static/media/fb-logo.ad66ea097c336284e33f.png",
-    "index.html": "/champelvin/index.html",
-    "main.8026ba1d.css.map": "/champelvin/static/css/main.8026ba1d.css.map",
-    "main.d241f1f9.js.map": "/champelvin/static/js/main.d241f1f9.js.map",
-    "787.4228a063.chunk.js.map": "/champelvin/static/js/787.4228a063.chunk.js.map"
+    "main.css": "/static/css/main.8026ba1d.css",
+    "main.js": "/static/js/main.551daebd.js",
+    "static/js/787.4228a063.chunk.js": "/static/js/787.4228a063.chunk.js",
+    "static/media/champ6.jpeg": "/static/media/champ6.273cde7a5c3a6fd7022d.jpeg",
+    "static/media/champ5.jpeg": "/static/media/champ5.49a605afbe3e218fb572.jpeg",
+    "static/media/champ3.jpeg": "/static/media/champ3.b2d2835233fa0b842c7a.jpeg",
+    "static/media/champ1.jpeg": "/static/media/champ1.ca08d8c0c440e0ea24bc.jpeg",
+    "static/media/champ2.jpeg": "/static/media/champ2.277da947b040e5f65623.jpeg",
+    "static/media/champ4.jpeg": "/static/media/champ4.2c318837108581829f97.jpeg",
+    "static/media/ig-logo.png": "/static/media/ig-logo.2144197ccca86364334a.png",
+    "static/media/loc.png": "/static/media/loc.4ba2450b71e973e57b09.png",
+    "static/media/logo2.png": "/static/media/logo2.184d03506c8d4de83f3d.png",
+    "static/media/fb-logo.png": "/static/media/fb-logo.ad66ea097c336284e33f.png",
+    "index.html": "/index.html",
+    "main.8026ba1d.css.map": "/static/css/main.8026ba1d.css.map",
+    "main.551daebd.js.map": "/static/js/main.551daebd.js.map",
+    "787.4228a063.chunk.js.map": "/static/js/787.4228a063.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8026ba1d.css",
-    "static/js/main.d241f1f9.js"
+    "static/js/main.551daebd.js"
   ]
 }
