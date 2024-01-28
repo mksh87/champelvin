@@ -58,11 +58,9 @@ function Header() {
             <div>
               <img className="img" src={champ5} />
             </div>
-
             <div>
               <img className="img" src={champ6} />
             </div>
-
             <div>
               <img className="img" src={champ8} />
             </div>
