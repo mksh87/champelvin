@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.8026ba1d.css",
-    "main.js": "/static/js/main.551daebd.js",
+    "main.js": "/static/js/main.10137774.js",
     "static/js/787.4228a063.chunk.js": "/static/js/787.4228a063.chunk.js",
     "static/media/champ6.jpeg": "/static/media/champ6.273cde7a5c3a6fd7022d.jpeg",
+    "static/media/champ8.jpeg": "/static/media/champ8.d607ac67ab1cd3b03167.jpeg",
     "static/media/champ5.jpeg": "/static/media/champ5.49a605afbe3e218fb572.jpeg",
+    "static/media/champ7.jpeg": "/static/media/champ7.ac7b7dcffc0c1822ffb4.jpeg",
+    "static/media/champ9.jpeg": "/static/media/champ9.bef85069495bf6b81829.jpeg",
     "static/media/champ3.jpeg": "/static/media/champ3.b2d2835233fa0b842c7a.jpeg",
     "static/media/champ1.jpeg": "/static/media/champ1.ca08d8c0c440e0ea24bc.jpeg",
     "static/media/champ2.jpeg": "/static/media/champ2.277da947b040e5f65623.jpeg",
@@ -15,11 +18,11 @@
     "static/media/fb-logo.png": "/static/media/fb-logo.ad66ea097c336284e33f.png",
     "index.html": "/index.html",
     "main.8026ba1d.css.map": "/static/css/main.8026ba1d.css.map",
-    "main.551daebd.js.map": "/static/js/main.551daebd.js.map",
+    "main.10137774.js.map": "/static/js/main.10137774.js.map",
     "787.4228a063.chunk.js.map": "/static/js/787.4228a063.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8026ba1d.css",
-    "static/js/main.551daebd.js"
+    "static/js/main.10137774.js"
   ]
 }
