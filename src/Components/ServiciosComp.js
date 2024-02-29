@@ -1,5 +1,3 @@
-import villa from "../img/icon-villa.png";
-import building from "../img/icon-building.png";
 import wifi from "../img/wifi.png";
 import garage from "../img/garage.png";
 import fence from "../img/fence.png";
