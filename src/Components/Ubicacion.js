@@ -45,7 +45,7 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <img className="myicons" src={location}></img>
+                      <img className="myicons" src={location} alt="Ícono"></img>
                     </div>
                     <a
                       href="https://maps.app.goo.gl/AZjnFNgXe1fQ5ZN17"
@@ -69,7 +69,7 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <img className="myicons" src={gmail}></img>
+                      <img className="myicons" src={gmail} alt="Ícono"></img>
                     </div>
                     <a href="mailto:colomeyer2@gmail.com" target="_blank">
                       <span>colomeyer2@gmail.com</span>
@@ -90,7 +90,7 @@ function Ubicacion() {
                       className="icon me-3"
                       style={{ width: "45px", height: "45px" }}
                     >
-                      <img className="myicons" src={phone}></img>
+                      <img className="myicons" src={phone} alt="Ícono"></img>
                     </div>
                     <a href="https://wa.me/543516073558" target="_blank">
                       <span>+54 351 607 3558</span>

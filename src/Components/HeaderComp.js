@@ -1,5 +1,3 @@
-import champ1 from "../img/champ1.jpeg";
-import champ2 from "../img/champ2.jpeg";
 import champ3 from "../img/champ3.jpeg";
 import champ4 from "../img/champ4.jpeg";
 import champ5 from "../img/champ5.jpeg";
@@ -44,25 +42,25 @@ function Header() {
             margin={8}
           >
             <div>
-              <img className="img" src={champ3} />
+              <img className="img" src={champ3} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ4} />
+              <img className="img" src={champ4} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ9} />
+              <img className="img" src={champ9} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ7} />
+              <img className="img" src={champ7} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ5} />
+              <img className="img" src={champ5} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ6} />
+              <img className="img" src={champ6} alt="Foto" />
             </div>
             <div>
-              <img className="img" src={champ8} />
+              <img className="img" src={champ8} alt="Foto" />
             </div>
           </OwlCarousel>
         </div>
